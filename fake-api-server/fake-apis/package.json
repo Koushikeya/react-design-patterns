@@ -1,0 +1,26 @@
+{
+  "name": "fake-api",
+  "version": "1.0.0",
+  "description": "JSON Server API for Container-Presenter Pattern Tutorial",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "reset": "cp db-backup.json db.json && echo 'Database reset to initial state'"
+  },
+  "keywords": [
+    "json-server",
+    "react",
+    "api",
+    "mock",
+    "tutorial"
+  ],
+  "author": "React Tutorial",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.17.4"
+  },
+  "devDependencies": {
+    "cors": "^2.8.5"
+  }
+}
